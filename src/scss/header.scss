@@ -1,0 +1,113 @@
+.header {
+  background-color: #db4a679e;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  padding: 25px 0;
+  &__logo {
+    display: flex;
+    column-gap: 7px;
+    align-items: center;
+    &-title {
+      color: #fff;
+      font-family: "Lato", sans-serif;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+  &__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__menu {
+    display: flex;
+    column-gap: 15px;
+    &-link {
+      color: #fff;
+      font-family: "Lato", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+  &__form {
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+    &-btn {
+      border-radius: 6px;
+      border: 1px solid #fff;
+      padding: 12px 28px;
+      color: #fff;
+      background-color: transparent;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      text-transform: uppercase;
+    }
+  }
+  .dd-selected-text {
+    color: #ffffff;
+    font-family: Lato, sans-serif;
+    font-weight: normal;
+  }
+  .dd-options {
+    width: 110px !important;
+  }
+  .dd-option {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    padding: 5px 3px;
+    border-bottom: solid 1px #ddd;
+    overflow: hidden;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+  }
+  .dd-selected {
+    overflow: hidden;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    column-gap: 15px;
+    font-weight: bold;
+  }
+  .dd-select {
+    border: none;
+    border-radius: 2px;
+    background-color: transparent !important;
+    position: relative;
+    cursor: pointer;
+    width: 110px !important;
+  }
+  .dd-select img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  .dd-option-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+  }
+  .dd-container {
+    width: auto !important;
+  }
+}
